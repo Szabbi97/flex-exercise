@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace flex_exercise
 {
@@ -17,26 +14,21 @@ namespace flex_exercise
             {
                 using (StreamReader file = new StreamReader(textFile))
                 {
-                    int counter = 0;
                     string ln;
+                    int NumberOfRightPasswords = 0;
 
                     while ((ln = file.ReadLine()) != null)
                     {
-                        counter++;
                         DataRow row = new DataRow(ln);
                         DataRowList.Add(row);
+                        if (row.IsRightPassword)
+                        {
+                            NumberOfRightPasswords++;
+                        }
                     }
                     file.Close();
+                    Console.WriteLine("Number of valid passwords: {0}",NumberOfRightPasswords);
                 }
-                int NumberOfRightPasswords = 0;
-                foreach (DataRow row in DataRowList)
-                {
-                    if (row.IsRightPassword)
-                    {
-                        NumberOfRightPasswords++;
-                    }
-                }
-                Console.WriteLine(NumberOfRightPasswords);
                 Console.ReadKey();
             }
         }
