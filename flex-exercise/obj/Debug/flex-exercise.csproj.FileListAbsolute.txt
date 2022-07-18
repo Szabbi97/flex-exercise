@@ -1,0 +1,8 @@
+C:\Users\SzabolcsBerenyi\source\repos\flex-exercise\flex-exercise\bin\Debug\flex-exercise.exe.config
+C:\Users\SzabolcsBerenyi\source\repos\flex-exercise\flex-exercise\bin\Debug\flex-exercise.exe
+C:\Users\SzabolcsBerenyi\source\repos\flex-exercise\flex-exercise\bin\Debug\flex-exercise.pdb
+C:\Users\SzabolcsBerenyi\source\repos\flex-exercise\flex-exercise\obj\Debug\flex-exercise.csproj.AssemblyReference.cache
+C:\Users\SzabolcsBerenyi\source\repos\flex-exercise\flex-exercise\obj\Debug\flex-exercise.csproj.SuggestedBindingRedirects.cache
+C:\Users\SzabolcsBerenyi\source\repos\flex-exercise\flex-exercise\obj\Debug\flex-exercise.csproj.CoreCompileInputs.cache
+C:\Users\SzabolcsBerenyi\source\repos\flex-exercise\flex-exercise\obj\Debug\flex-exercise.exe
+C:\Users\SzabolcsBerenyi\source\repos\flex-exercise\flex-exercise\obj\Debug\flex-exercise.pdb
